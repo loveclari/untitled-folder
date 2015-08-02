@@ -1,4 +1,4 @@
-<!DOCUMENT html>
+<!DOCUMENT type>
 <html>
 <head>
     <meta charset="utf-8">
@@ -47,6 +47,12 @@ body {
     text-align: center;
 }
 
+.form {
+    display:block;
+    margin:auto;
+    float:center;
+}
+
 .tab-links {
 	float: center;
 	overflow: auto;
@@ -64,7 +70,7 @@ body {
  
     .tab-links li {
         margin:20px 15px;
-        float:left;
+        float:center;
         list-style:none;
     }
  .tab-links a {
@@ -91,17 +97,46 @@ body {
 </style>   
 </head>
 <body>
-<div class="row">
-<img src="rivet.png" /></div>
+<img src="rivet.png" />
 <h1 style="center">Pick Costs</h1></div>
+<div class="row">
  <div class="tabs">
     <ul class="tab-links">
-        <div><center><li><a href="#tab1">Staff</a></center></li>
-        <ul class="sub-menu"><li><a href="sub-tab1">Salary</a></li></div>
-        <div><center><li><a href="#tab2">Supplies</a></li>
-        <ul class="sub-menu"><li><a href="sub-tab2">Napkins</a></li></center></div>
-        <div><center><li><a href="#tab3">Bills</a></li>
-        <ul class="sub-menu"><li><a href="sub-tab3">Rent</a></li></center></div>
+        <div><li><a href="#tab1">Staff</a></li><div>
+        <div class="form"><form action="demo_form.asp" method="get">
+  <input type="checkbox" name="vehicle" value="Bike">Salary<br>
+  <input type="checkbox" name="vehicle" value="Car" checked>Waitress<br>
+  <input type="submit" value="Submit"></div>
+</form>
+<div class="row">
+ <div class="tabs">
+    <div><li><a href="#tab2">Supplies</a></li>
+       <div class="form"><form action="demo_form.asp" method="get">
+  <input type="checkbox" name="vehicle" value="Bike">Napkins<br>
+  <input type="checkbox" name="vehicle" value="Car" checked>Paper cups<br>
+  <input type="submit" value="Submit"></div>
+</form>
+<div class="row">
+ <div class="tabs">
+  <div><li><a href="#tab3">Bills</a></li></div>
+        <div class="form"><form action="demo_form.asp" method="get">
+  <input type="checkbox" name="vehicle" value="Bike">Rent<br>
+  <input type="checkbox" name="vehicle" value="Car" checked>Internet<br>
+  <input type="submit" value="Submit"></div>
+</form>
+</div></ul>
+        </div>
+        </div>
+        </br>
+
+   <!--<div class="row">
+   <div class="col-md-8 col-md-offset-2">     
+   <div class="tabs">
+   <ul class="tab-links">
+   <div><li><a href="sub-tab1">Salary</a></li></div> 
+   <div><li><a href="sub-tab2">Napkins</a></li></center></div> 
+   <div><ul class="sub-menu"><li><a href="sub-tab2">Napkins</a></li></center></div>
+   <div><ul class="sub-menu"><li><a href="sub-tab2">Napkins</a></li></center></div>   
     </ul>
     </div></div></div>
 
