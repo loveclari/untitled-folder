@@ -1,0 +1,232 @@
+<!DOCUMENT type>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Pick Costs</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+   
+
+    <!-- Custom CSS -->
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<style>
+body {
+    background-color: #556C8C;
+    text-align: left;
+}
+	h1 {
+		color: 7FB3CE;
+		font-family: Helvetica Neue, sans serif;
+		font-size: 80px;
+		text-align: center;
+		margin-top: 30px;
+	}
+	img {
+		width: 60px;
+		padding-left: 5px;
+		padding-top: 30px;
+
+	}
+
+    a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+::selection {
+
+    background: #68dff0;
+    color: #fff;
+}
+::-moz-selection {
+    background: #68dff0;
+    color: #fff;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+	.categories {
+	list-style: none;
+	font-size: 40px;
+	font-family: Helvetica Neue, sans serif;
+	display: block;
+	margin: auto;
+	}
+/*----- Tabs -----*/
+
+.tabs {
+	width: 100%;
+    display: block;
+    margin: auto;
+    float: center;
+    text-align: center;
+}
+
+.form {
+    display:block;
+    margin:auto;
+    float:center;
+}
+
+.tab-links {
+	float: center;
+	overflow: auto;
+	
+
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+        margin:20px 15px;
+        float:center;
+        list-style:none;
+    }
+ .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:40px;
+            font-family: Helvetica Neue;
+            font-weight:900;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+        }
+ 
+        .tab-links a:hover {
+            background:#a7cce5;
+            
+        }
+ 
+    li.active a, li.active a:hover {
+        color:#4c4c4c;
+    }
+
+    ul li {
+    list-style: none;
+}
+
+ul.top-menu > li > .logout {
+    color: #f2f2f2;
+    font-size: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1px solid #64c3c2 !important;
+    padding: 5px 10px;
+    margin-right: 15px;
+    background: #68dff0;
+    margin-top: 10px;
+    float: right;
+}
+
+ul.top-menu > li > a {
+    color: #666666;
+    font-size: 16px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border:1px solid #666666 !important;
+    padding: 2px 6px;
+    margin-right: 15px;
+}
+
+ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
+    border:1px solid #b6b6b6 !important;
+    background-color: transparent !important;
+    border-color: #b6b6b6 !important;
+    text-decoration: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #b6b6b6 !important;
+}
+
+/*#container {
+    width: 100%;
+    height: 100%;
+}*/
+  
+</style> 
+<body>
+
+<section id="container">
+    <!-- **********************************************************************************************************************************************************
+      TOP BAR CONTENT & NOTIFICATIONS
+      *********************************************************************************************************************************************************** -->
+    <!--header start-->
+    <header class="header black-bg">
+      <!--<div class="sidebar-toggle-box">
+        <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation">--></div><img src="rivet.png" /></div>
+    
+      <!--logo start-->
+      <a href="#" class="logo"><b>RIVET</b></a>
+      <!--logo end-->
+      <!-- inbox dropdown end -->
+      <!--  notification end -->
+    
+      <div class="top-menu">
+          <li><a class="logout" href="login.html">Logout</a></li>
+        </ul>
+      </div>
+      </div></div>  
+</head>
+<h1 style="center">Pick Costs</h1></div>
+<div class="row">
+ <div class="tabs">
+    <ul class="tab-links">
+        <div><li><a href="#tab1">Staff</a></li><div>
+        <div class="form"><form action="demo_form.asp" method="get">
+  <input type="checkbox" name="vehicle" value="Bike">Salary<br>
+  <input type="checkbox" name="vehicle" value="Car" checked>Waitress<br>
+  <input type="submit" value="Submit"></div>
+</form>
+<div class="row">
+ <div class="tabs">
+    <div><li><a href="#tab2">Supplies</a></li>
+       <div class="form"><form action="demo_form.asp" method="get">
+  <input type="checkbox" name="vehicle" value="Bike">Napkins<br>
+  <input type="checkbox" name="vehicle" value="Car" checked>Paper cups<br>
+  <input type="submit" value="Submit"></div>
+</form>
+<div class="row">
+ <div class="tabs">
+  <div><li><a href="#tab3">Bills</a></li></div>
+        <div class="form"><form action="demo_form.asp" method="get">
+  <input type="checkbox" name="vehicle" value="Bike">Rent<br>
+  <input type="checkbox" name="vehicle" value="Car" checked>Internet<br>
+  <input type="submit" value="Submit"></div>
+</form>
+</div></ul>
+        </div>
+        </div>
+
+   <!--<div class="row">
+   <div class="col-md-8 col-md-offset-2">     
+   <div class="tabs">
+   <ul class="tab-links">
+   <div><li><a href="sub-tab1">Salary</a></li></div> 
+   <div><li><a href="sub-tab2">Napkins</a></li></center></div> 
+   <div><ul class="sub-menu"><li><a href="sub-tab2">Napkins</a></li></center></div>
+   <div><ul class="sub-menu"><li><a href="sub-tab2">Napkins</a></li></center></div>   
+    </ul>
+    </div></div></div>
+
+
+
+<!--<div class="categories">
+	<ul class="Categories"</ul>
+	<li>Salary</li>
+	<li>Supplies</li>
+	<li>Bills</li>-->
+</div>
+</body>
+</html>
